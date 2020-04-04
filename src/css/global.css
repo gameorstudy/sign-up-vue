@@ -1,0 +1,27 @@
+.field {
+  position: relative;
+  width: 260px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+
+.field label {
+  height: auto;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color: #777;
+  display: block;
+  margin-bottom: 0.375rem;
+}
+
+.field input {
+  width: 240px;
+  height: 2.2rem;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+.field input::placeholder {
+  color: #777;
+}
